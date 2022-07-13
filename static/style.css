@@ -14,14 +14,15 @@
 
 div {
     width: 100%; /* Ширина */
-    background: #fc0; /* Цвет фона */
+    background: gray; /* Цвет фона */
     padding: 20px; /* Поля */
     -moz-box-sizing: border-box; /* Для Firefox */
     -webkit-box-sizing: border-box; /* Для Safari и Chrome */
     box-sizing: border-box; /* Для IE и Opera */
-    border: 5px dashed black;/* Параметры границы */
+    border: 1px dashed black;/* Параметры границы */
    }
 
 .wrap {
 width: 50%; /* Ширина */
 }
+
