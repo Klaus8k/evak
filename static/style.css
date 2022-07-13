@@ -1,6 +1,27 @@
 /* Style for site */
 
 .tst {
-  color: #F57314;
-  font-family: Arial, Verdana, sans-serif;
+    color: #F57314;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+.space {
+    padding: 20px; /* Поля */
+    background: #E5D3BD; /* Цвет фона */
+    border: 2px dotted #E81E25; /* Параметры рамки */
+    margin-left: 0px
+}
+
+div {
+    width: 100%; /* Ширина */
+    background: #fc0; /* Цвет фона */
+    padding: 20px; /* Поля */
+    -moz-box-sizing: border-box; /* Для Firefox */
+    -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+    box-sizing: border-box; /* Для IE и Opera */
+    border: 1px solid #000;
+   }
+
+.wrap {
+width: 50%; /* Ширина */
 }
