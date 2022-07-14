@@ -16,30 +16,31 @@
 
 
 <body>
-<!--MENU-->
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#"> LOGO </a>
-        </div>
-        <div class="collapse navbar-collapse">
-            <div class="navbar-nav">
-                <a class="nav-link" href="#"> Эвакуация </a>
-                <a class="nav-link" href="#"> Трезвый водитель </a>
-                <a class="nav-link" href="#"> Полезное </a>
+<div class="container">
+    <!--MENU-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"> LOGO </a>
             </div>
+            <div class="collapse navbar-collapse">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#"> Эвакуация </a>
+                    <a class="nav-link" href="#"> Трезвый водитель </a>
+                    <a class="nav-link" href="#"> Полезное </a>
+                </div>
+            </div>
+
         </div>
 
-    </div>
+
+    </nav>
 
 
-</nav>
+    {% block content %}
+    {% endblock %}
 
-
-
-{% block content %}
-{% endblock %}
-
+</div>
 
 </body>
 
