@@ -11,14 +11,45 @@
           integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
           crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{% static 'base.css' %}">
+
 </head>
 
 
 <body>
-<main class="xxl">
+<main>
     <section class="section-top">
-        tws
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="static/images/Rectangle 5.svg">
+                    <img style="position: relative; left: -130px"
+                         src="static/images/ALPINE.svg">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Переключатель навигации">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PRICING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MOBILE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BLOG</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
 
 
     </section>
@@ -26,19 +57,8 @@
 </main>
 
 
-
-
-
-
-
-
-
-
-
-
-
-    {% block content %}
-    {% endblock %}
+{% block content %}
+{% endblock %}
 
 </div>
 <!--add script for js-->
