@@ -19,8 +19,8 @@ h6 {
 .be-static {
     position: static;
 }
-.offer-cont {
-}
+
+.offer-cont {}
 
 .btn {
     display: inline;
@@ -32,7 +32,7 @@ h6 {
     padding: 13px 26px;
     border-radius: 0;
     letter-spacing: 0.4em;
-    transition: all 0,5s ease;
+    transition: all 0, 5s ease;
 }
 
 .btn:hover {
@@ -58,9 +58,9 @@ button.menu {
 }
 
 .offer-cont_text {
-    margin: 30px 0 56px; 
+    margin: 30px 0 56px;
     letter-spacing: 0.04em;
-      
+
 }
 
 .hero {
@@ -75,11 +75,22 @@ button.menu {
 }
 
 .video {
-     position: absolute;
-     left: 0;
-     bottom: 166px;
-     background: url('../static/img/Placeholder.png');
-     height: 364px;
-     width: 400px;
-     display: block;
+    position: absolute;
+    left: 0;
+    bottom: 166px;
+    background: url('../static/img/Placeholder.png');
+    height: 364px;
+    width: 400px;
+    display: block;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.video::after {
+    content: '';
+    display: block;
+    background: url('../static/img/video_btn.svg');
+    height: 65px;
+    width: 65px;
 }
