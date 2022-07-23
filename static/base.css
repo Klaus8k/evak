@@ -65,8 +65,8 @@ button.menu {
 
 .hero {
     background: url('../static/img/Placeholder-1.jpg') no-repeat right top;
-    height: 840px;
-    width: 665px;
+    height: 80vh;
+    width: 55%;
     background-size: 80% 100%;
     position: absolute;
     right: 0;
